@@ -1,81 +1,107 @@
 @import 'colors';
 
-div#docs-chrome, div#docs-toolbar-wrapper, .docs-title-input {
+// Containers
+.kix-appview-editor-container {
+  background-color: $bg-container;
+}
+
+// Main Backgrounds
+.kix-page.kix-page-compact-first,
+.kix-page-content-wrapper,
+span.goog-inline-block.kix-lineview-text-block,
+.docs-ui-unprintable {
+  background-color: $bg-main !important;
+}
+
+// Main Text Colors
+body, .kix-lineview-text-block,
+span.kix-wordhtmlgenerator-word-node,
+.goog-menuitem,
+.goog-menuitem-highlight .goog-menuitem-label,
+.goog-toolbar-button {
+  color: $text-color !important;
+}
+
+// UI Backgrounds
+div#docs-chrome,
+div#docs-toolbar-wrapper,
+.docs-title-input,
+div#kix-vertical-ruler,
+div#kix-horizontal-ruler,
+.docs-ruler-background-inner,
+.docs-titlebar-buttons,
+.app-switcher-button-icon-container,
+.companion-app-switcher-container {
   background-color: $bg-ui !important;
 }
 
-div#kix-horizontal-ruler, div#kix-vertical-ruler {
-  border-color: #1a1a1a !important;
+// Borders
+div#kix-horizontal-ruler,
+div#kix-vertical-ruler,
+div#docs-toolbar-wrapper,
+.goog-toolbar-separator,
+.companion-app-switcher-container,
+.docs-companion-app-switcher-container {
+  border-color: $borders !important;
 }
 
-div#kix-vertical-ruler, div#kix-horizontal-ruler, .docs-ruler-background-inner {
-  background-color: $bg-ui;
+.goog-menuitem.docs-submenuitem,
+.goog-menuseparator {
+  border-color: lighten($borders, 15%);
 }
 
-.jfk-tooltip {
-  background-color: #aaa !important;
-  border-color: #000 !important;
-  color: #000 !important;
+// Buttons
+.goog-toolbar-button,
+.goog-toolbar-combo-button,
+.goog-toolbar-menu-button {
+  background-color: $bg-button !important;
 }
-.goog-menu {
-  background-color: $bg-menu;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+
+.goog-toolbar-button:hover,
+.goog-toolbar-combo-button:hover,
+.goog-toolbar-menu-button:hover {
+  background-color: $bg-button-hover;
 }
+
+// Menus
+.goog-menu,
 .docs-menubar .goog-control-open {
   background-color: $bg-menu;
 }
-.goog-menuitem {
-  color: $text-color;
-}
-.goog-menuitem-highlight .goog-menuitem-label {
-  color: $text-color !important;
-}
-.goog-menuitem.docs-submenuitem, .goog-menuseparator {
-  border-color: lighten($borders, 15%);
-}
-.goog-menuitem-highlight, .goog-menuitem-highlight .docs-submenuitem-splitbutton {
+
+.goog-menuitem-highlight,
+.goog-menuitem-highlight .docs-submenuitem-splitbutton {
   background-color: lighten($bg-menu, 6%);
 }
 .goog-menuitem-highlight .docs-submenuitem-splitbutton {
   background-image: linear-gradient(lighten($bg-menu, 6%), lighten($bg-menu, 6%));
   border-color: transparent !important;
 }
-.kix-appview-editor-container {
-  background-color: $bg-container;
-}
 
-.kix-page.kix-page-compact-first, .kix-page-content-wrapper,span.goog-inline-block.kix-lineview-text-block, .docs-ui-unprintable {
-  background-color: $bg-main !important;
-}
-
-body, .kix-lineview-text-block, span.kix-wordhtmlgenerator-word-node {
-  color: $text-color !important;
-}
-
-.kix-paginateddocumentplugin.kix-paginateddocumentplugin-compact-mode {
-  box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
-}
-
-div#docs-toolbar-wrapper, .goog-toolbar-separator {
-  border-color: $borders !important;
-}
-
-.goog-toolbar-button {
-  color: #eee !important;
-}
-
-.goog-toolbar-button, .goog-toolbar-combo-button, .goog-toolbar-menu-button {
-  background-color: $bg-button !important;
-}
-.goog-toolbar-button:hover, .goog-toolbar-combo-button:hover, .goog-toolbar-menu-button:hover {
-  background-color: $bg-button-hover;
-}
-
-.docs-title-input:hover, .docs-menubar .goog-control.goog-control-hover {
+// Inputs
+.docs-title-input:hover,
+.docs-menubar .goog-control.goog-control-hover {
   background-color: $bg-input-hover !important;
   border-color: $bg-input-hover !important;
 }
 
-.docs-titlebar-buttons {
-  background-color: #111 !important;
+// Shadows
+.goog-menu {
+  box-shadow: 0 5px 10px 0 $shadow;
+}
+.kix-paginateddocumentplugin.kix-paginateddocumentplugin-compact-mode {
+  box-shadow: 0 0 15px 0 $shadow;
+}
+
+// Various
+.jfk-tooltip {
+  background-color: lighten($bg-menu, 10%) !important;
+  border-color: transparent !important;
+  color: $text-color !important;
+}
+.jfk-tooltip-arrowimplbefore {
+  border-color: transparent !important;
+}
+.jfk-tooltip-arrowimplafter {
+  border-color: lighten($bg-menu, 10%) transparent !important;
 }

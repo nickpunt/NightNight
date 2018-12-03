@@ -64,7 +64,7 @@ Any browser extension that overrides stylesheets. Chrome and Firefox support thi
 ## Notes
 As mentioned above, overriding stylesheets is tricky since web apps often change their styles. Expect themes to not work perfectly! Pull Requests are welcome.
 
-The hope is that web apps will eventually get around to adding their own dark mode theme. If/when that happens, this tool is no longer really useful except if you want to have finer control over their colors. Once web apps like GSuite, Coda, and Airtable add dark mode, I'll stop maintaining this repo.
+The hope is that web apps will eventually get around to adding their own dark mode theme. If/when that happens, this tool is no longer really useful except if you want to have finer control over their colors. Once web apps like GSuite, Coda, Airtable, and Github add dark mode, I'll stop maintaining this repo.
 
 ## Issues
 * Google Docs: Icons are unfortunately rather dark, due to PNG colors
