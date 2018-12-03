@@ -11,8 +11,6 @@
 .docs-ui-unprintable {
   background-color: $bg-main !important;
 }
-// TODO span.goog-inline-block.kix-lineview-text-block,
-
 
 // Main Text Colors
 body, .kix-lineview-text-block,
@@ -20,7 +18,10 @@ span.kix-wordhtmlgenerator-word-node,
 .goog-menuitem,
 .goog-menuitem-highlight .goog-menuitem-label,
 .goog-toolbar-button,
-.docs-menubar .goog-control-hover {
+.docs-menubar .goog-control-hover,
+.docos-anchoredreplyview-author,
+.docos-input-typing>.docos-input-textarea,
+.jfk-button-standard {
   color: $text-color !important;
 }
 .docs-menubar {
@@ -38,7 +39,6 @@ a:link, a:link span, .docs-bubble-link {
   background-color: $text-selection !important;
 }
 
-
 // UI Backgrounds
 div#docs-chrome,
 div#docs-toolbar-wrapper,
@@ -48,8 +48,22 @@ div#kix-horizontal-ruler,
 .docs-ruler-background-inner,
 .docs-titlebar-buttons,
 .app-switcher-button-icon-container,
-.companion-app-switcher-container {
+.companion-app-switcher-container,
+.docos-anchoreddocoview {
   background-color: $bg-ui !important;
+}
+
+// Comments
+.docos-layout-vertical .docos-anchoreddocoview .docos-anchoreddocoview-arrow-inner,
+.docos-layout-vertical .docos-anchoreddocoview .docos-anchoreddocoview-arrow-outer {
+  border-right-color: $bg-menu !important;
+}
+.docos-input-textarea {
+  background-color: darken($bg-menu, 5%) !important;
+}
+.docos-replyview-first.docos-anchoredreplyview,
+.docos-anchoreddocoview .docos-draftdiscussionview-input-pane {
+  background-color: $bg-menu !important;
 }
 
 // Borders
@@ -58,7 +72,9 @@ div#kix-vertical-ruler,
 div#docs-toolbar-wrapper,
 .goog-toolbar-separator,
 .companion-app-switcher-container,
-.docs-companion-app-switcher-container {
+.docs-companion-app-switcher-container,
+#docs-instant-button-bubble,
+.docos-input-textarea {
   border-color: $borders !important;
 }
 
@@ -70,13 +86,19 @@ div#docs-toolbar-wrapper,
 // Buttons
 .goog-toolbar-button,
 .goog-toolbar-combo-button,
-.goog-toolbar-menu-button {
+.goog-toolbar-menu-button,
+#docs-instant-button-bubble,
+.jfk-button-standard {
   background-color: $bg-button !important;
+}
+.jfk-button-standard {
+  background-image: linear-gradient(lighten($bg-button, 6%), lighten($bg-button, 6%)) !important;
 }
 
 .goog-toolbar-button:hover,
 .goog-toolbar-combo-button:hover,
-.goog-toolbar-menu-button:hover {
+.goog-toolbar-menu-button:hover,
+#docs-instant-button-bubble:hover {
   background-color: $bg-button-hover;
 }
 
