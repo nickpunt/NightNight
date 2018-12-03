@@ -17,7 +17,7 @@ span.kix-wordhtmlgenerator-word-node,
 .docos-anchoredreplyview-author,
 .docos-input-typing > .docos-input-textarea,
 .jfk-button-standard {
-  color: #fafafa !important;
+  color: #e9e9e9 !important;
 }
 
 .docs-menubar {
@@ -72,6 +72,10 @@ div#docs-toolbar-wrapper,
 #docs-instant-button-bubble,
 .docos-input-textarea {
   border-color: #1a1a1a !important;
+}
+
+.kix-page-compact::before {
+  border-color: #4d4d4d !important;
 }
 
 .goog-menuitem.docs-submenuitem,
@@ -130,7 +134,7 @@ div#docs-toolbar-wrapper,
 .jfk-tooltip, .docs-bubble {
   background-color: #565656 !important;
   border-color: transparent !important;
-  color: #fafafa !important;
+  color: #e9e9e9 !important;
 }
 
 .jfk-tooltip-arrowimplbefore {

@@ -77,6 +77,9 @@ div#docs-toolbar-wrapper,
 .docos-input-textarea {
   border-color: $borders !important;
 }
+.kix-page-compact::before {
+  border-color: lighten($borders, 20%) !important;
+}
 
 .goog-menuitem.docs-submenuitem,
 .goog-menuseparator {
