@@ -25,7 +25,7 @@ a:visited, a:visited span {
   color: #8f8ce6 !important;
 }
 
-a:link, a:link span {
+a:link, a:link span, .docs-bubble-link {
   color: #8ca9e6 !important;
 }
 
@@ -100,7 +100,7 @@ div#docs-toolbar-wrapper,
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.jfk-tooltip {
+.jfk-tooltip, .docs-bubble {
   background-color: #565656 !important;
   border-color: transparent !important;
   color: #fafafa !important;

@@ -29,7 +29,7 @@ span.kix-wordhtmlgenerator-word-node,
 a:visited, a:visited span {
   color: $text-link-visited !important;
 }
-a:link, a:link span {
+a:link, a:link span, .docs-bubble-link {
   color: $text-link !important;
 }
 
@@ -111,7 +111,7 @@ div#docs-toolbar-wrapper,
 }
 
 // Various
-.jfk-tooltip {
+.jfk-tooltip, .docs-bubble {
   background-color: lighten($bg-menu, 10%) !important;
   border-color: transparent !important;
   color: $text-color !important;
