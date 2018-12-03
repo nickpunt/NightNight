@@ -8,19 +8,36 @@
 // Main Backgrounds
 .kix-page.kix-page-compact-first,
 .kix-page-content-wrapper,
-span.goog-inline-block.kix-lineview-text-block,
 .docs-ui-unprintable {
   background-color: $bg-main !important;
 }
+// TODO span.goog-inline-block.kix-lineview-text-block,
+
 
 // Main Text Colors
 body, .kix-lineview-text-block,
 span.kix-wordhtmlgenerator-word-node,
 .goog-menuitem,
 .goog-menuitem-highlight .goog-menuitem-label,
-.goog-toolbar-button {
+.goog-toolbar-button,
+.docs-menubar .goog-control-hover {
   color: $text-color !important;
 }
+.docs-menubar {
+  color: $text-color-secondary !important;
+}
+a:visited, a:visited span {
+  color: $text-link-visited !important;
+}
+a:link, a:link span {
+  color: $text-link !important;
+}
+
+// Text Selection
+.kix-lineview .kix-selection-overlay.kix-htmloverlay.docs-ui-unprintable.kix-htmloverlay-under-text {
+  background-color: $text-selection !important;
+}
+
 
 // UI Backgrounds
 div#docs-chrome,
