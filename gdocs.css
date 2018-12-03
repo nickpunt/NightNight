@@ -1,0 +1,57 @@
+div#docs-chrome, div#docs-toolbar-wrapper, .docs-title-input {
+  background-color: #222 !important;  
+}
+
+div#kix-horizontal-ruler, div#kix-vertical-ruler {
+  border-color: #1a1a1a !important;
+}
+
+div#kix-vertical-ruler, div#kix-horizontal-ruler, .docs-ruler-background-inner {
+  background-color: #222;
+}
+
+.jfk-tooltip {
+  background-color: #aaa !important;
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
+.kix-appview-editor-container {
+  background-color: #272727;
+}
+
+.kix-page.kix-page-compact-first, .kix-page-content-wrapper,span.goog-inline-block.kix-lineview-text-block, .docs-ui-unprintable {
+  background-color: #2b2b2b !important;
+}
+
+body, .kix-lineview-text-block, span.kix-wordhtmlgenerator-word-node {
+  color: #fafafa !important;
+}
+
+.kix-paginateddocumentplugin.kix-paginateddocumentplugin-compact-mode {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+}
+
+div#docs-toolbar-wrapper, .goog-toolbar-separator {
+  border-color: #272727 !important;
+}
+
+.goog-toolbar-button {
+  color: #eee !important;
+}
+
+.goog-toolbar-button, .goog-toolbar-combo-button, .goog-toolbar-menu-button {
+  background-color: #444 !important;
+}
+.goog-toolbar-button:hover, .goog-toolbar-combo-button:hover, .goog-toolbar-menu-button:hover {
+  background-color: #999 ;
+}
+
+.docs-title-input:hover, .docs-menubar .goog-control.goog-control-hover {
+  background-color: #444 !important;
+  border-color: #111 !important;
+}
+
+.docs-titlebar-buttons {
+  background-color: #111 !important;
+}
