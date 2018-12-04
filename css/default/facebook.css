@@ -1,0 +1,203 @@
+body,
+#contentCol {
+  background-color: #1d1d1d !important;
+}
+
+._4-u8,
+._3w53,
+._3eqz,
+._3vum span,
+._3ubp,
+._sg1,
+._3z2,
+._hij,
+.UFIList > div,
+._4arz,
+._fyy,
+#fbPhotoSnowliftDetails,
+.uiBoxWhite,
+.UFIReplySocialSentenceRow,
+.UFIRow,
+.UFIComment,
+.UFIPagerRow,
+.UFIAddComment,
+.UFIAddCommentWithPhotoAttacher,
+.UFIList,
+._ipo {
+  background-color: #2b2b2b !important;
+}
+
+._4-h8::after {
+  border-bottom-color: #2b2b2b !important;
+}
+
+._6qw3,
+.UFICommentActorAndBody {
+  background-color: #3f3f3f !important;
+}
+
+#contentCol,
+._6qw3,
+.userContentWrapper,
+.textInput > input,
+.uiHeaderTitle,
+.fcb,
+.UFICommentActorAndBody {
+  color: #e9e9e9 !important;
+}
+
+._38my {
+  color: #f6f6f6 !important;
+}
+
+a:visited, a:visited span {
+  color: #8f8ce6 !important;
+}
+
+a:link,
+a:link span,
+._517h,
+._59pe:focus,
+._59pe:hover {
+  color: #8ca9e6 !important;
+}
+
+::selection,
+::-moz-selection {
+  background-color: #66adff !important;
+}
+
+#bluebarRoot > div {
+  background-color: #222 !important;
+  border-color: #1a1a1a !important;
+}
+
+._4-u8,
+._4-u2,
+._3vum,
+._3w53,
+._3ekx,
+._1hvl,
+._5pcm,
+._3ubp,
+._16ve,
+._1sz4:empty::after,
+._5va1,
+._4fzb,
+._517h,
+._5mxv,
+._34ju._34ju:after,
+.UFIRow,
+._4_dr,
+._fyy,
+._6a15,
+#fbNotificationsFlyout {
+  border-color: #1a1a1a !important;
+}
+
+._4-h8 {
+  border-bottom-color: #1a1a1a !important;
+}
+
+._4-u2::before {
+  border-color: #343434 !important;
+}
+
+#facebar_typeahead_view_list li.selected {
+  background: #444 !important;
+}
+
+._m_1,
+#facebook ._-kb button,
+.fbNubButton,
+._64lx ._517h,
+._64lx ._59pe:focus,
+._34jt {
+  background-color: #444 !important;
+}
+._m_1:hover,
+#facebook ._-kb button:hover,
+.fbNubButton:hover,
+._64lx ._517h:hover,
+._64lx ._59pe:focus:hover,
+._34jt:hover {
+  background-color: #999;
+}
+
+.fbNubButton,
+._42fu, ._42gx:focus, ._42gx:hover,
+._517h, ._59pe:focus, ._59pe:hover,
+.uiTypeahead,
+._1lha {
+  background: #444 !important;
+  border-color: #444 !important;
+}
+
+._m_1 {
+  background-image: linear-gradient(#535353, #535353) !important;
+}
+
+.sideNavItem.selectedItem > a::after,
+.selectedItem > .uiPopover > a,
+.navHeader ._1pej::after,
+._3m75 .sideNavItem ._5afe::after,
+._3m75 .sideNavItem:hover .uiSideNavEditButton a,
+._3o_h::after,
+._2yaa ._2yau::after,
+.uiBoxGray,
+.uiToggleFlyout li,
+.jewelHeader,
+.jewelFooter a,
+._53ij {
+  background-color: #444 !important;
+  border-color: #444 !important;
+}
+
+.jewelItemNew a {
+  background-color: #5e5e5e !important;
+  border-color: #444 !important;
+}
+
+.linkWrap.noCount,
+._bui ._5afe,
+.sideNavItem.selectedItem a,
+.sideNavItem.selectedItem > a > .linkWrap,
+.fbNubButton {
+  color: #777 !important;
+}
+
+#js_r,
+#js_7,
+._129h,
+._50c9,
+._585-,
+.UFIInputContainer,
+.uiSearchInput::after,
+.uiTypeahead::after,
+._58ak::after {
+  background-color: #444;
+  border-color: #1a1a1a;
+}
+#js_r:hover,
+#js_7:hover,
+._129h:hover,
+._50c9:hover,
+._585-:hover,
+.UFIInputContainer:hover,
+.uiSearchInput::after:hover,
+.uiTypeahead::after:hover,
+._58ak::after:hover {
+  background-color: #444;
+}
+
+._3zsi {
+  background-color: #444;
+  border-color: #343434;
+}
+
+._4_u2,
+#fbNotificationsFlyout {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=facebook.css.map */

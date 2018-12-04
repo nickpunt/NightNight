@@ -1,0 +1,195 @@
+@import 'colors';
+
+
+// Containers
+body,
+#contentCol {
+  background-color: darken($bg-container, 4%) !important;
+}
+
+// Main Backgrounds
+._4-u8,
+._3w53,
+._3eqz,
+._3vum span,
+._3ubp,
+._sg1,
+._3z2,
+._hij,
+.UFIList > div,
+._4arz,
+._fyy,
+#fbPhotoSnowliftDetails,
+.uiBoxWhite,
+.UFIReplySocialSentenceRow,
+.UFIRow,
+.UFIComment,
+.UFIPagerRow,
+.UFIAddComment,
+.UFIAddCommentWithPhotoAttacher,
+.UFIList,
+._ipo {
+  background-color: $bg-main !important;
+}
+._4-h8::after {
+  border-bottom-color: $bg-main !important;
+}
+._6qw3,
+.UFICommentActorAndBody {
+  background-color: lighten($bg-main, 8%) !important;
+}
+
+// Main Text Colors
+#contentCol,
+._6qw3,
+.userContentWrapper,
+.textInput > input,
+.uiHeaderTitle,
+.fcb,
+.UFICommentActorAndBody {
+  color: $text-color !important;
+}
+._38my {
+  color: lighten($text-color, 5%) !important;
+}
+
+a:visited, a:visited span {
+  color: $text-link-visited !important;
+}
+a:link,
+a:link span,
+._517h,
+._59pe:focus,
+._59pe:hover {
+  color: $text-link !important;
+}
+
+// Text Selection
+::selection,
+::-moz-selection {
+  background-color: $text-selection !important;
+}
+
+// UI Backgrounds
+#bluebarRoot > div {
+  background-color: $bg-ui !important;
+  border-color: $borders !important;
+}
+
+// Borders
+._4-u8,
+._4-u2,
+._3vum,
+._3w53,
+._3ekx,
+._1hvl,
+._5pcm,
+._3ubp,
+._16ve,
+._1sz4:empty::after,
+._5va1,
+._4fzb,
+._517h,
+._5mxv,
+._34ju._34ju:after,
+.UFIRow,
+._4_dr,
+._fyy,
+._6a15,
+#fbNotificationsFlyout {
+  border-color: $borders !important;
+}
+._4-h8 {
+  border-bottom-color: $borders !important;
+}
+._4-u2::before {
+  border-color: lighten($borders, 10%) !important;
+}
+
+// Buttons
+#facebar_typeahead_view_list li.selected {
+  background: $bg-button !important;
+}
+._m_1,
+#facebook ._-kb button,
+.fbNubButton,
+._64lx ._517h,
+._64lx ._59pe:focus,
+._34jt {
+  background-color: $bg-button !important;
+  &:hover {
+    background-color: $bg-button-hover;
+  }
+}
+.fbNubButton,
+._42fu, ._42gx:focus, ._42gx:hover,
+._517h, ._59pe:focus, ._59pe:hover,
+.uiTypeahead,
+._1lha {
+  background: $bg-button !important;
+  border-color: $bg-button !important;
+}
+._m_1 {
+  background-image: linear-gradient(lighten($bg-button, 6%), lighten($bg-button, 6%)) !important;
+}
+
+// Menus
+.sideNavItem.selectedItem > a::after,
+.selectedItem > .uiPopover > a,
+.navHeader ._1pej::after,
+._3m75 .sideNavItem ._5afe::after,
+._3m75 .sideNavItem:hover .uiSideNavEditButton a,
+._3o_h::after,
+._2yaa ._2yau::after,
+.uiBoxGray,
+.uiToggleFlyout li,
+.jewelHeader,
+.jewelFooter a,
+._53ij {
+  background-color: $bg-button !important;
+  border-color: $bg-button !important;
+}
+.jewelItemNew a {
+  background-color: lighten($bg-button, 10%) !important;
+  border-color: $bg-button !important;
+}
+
+.linkWrap.noCount,
+._bui ._5afe,
+.sideNavItem.selectedItem a,
+.sideNavItem.selectedItem > a > .linkWrap,
+.fbNubButton {
+  color: $text-color-secondary !important;
+}
+
+
+// Inputs
+// Search
+#js_r,
+#js_7,
+._129h,
+._50c9,
+._585-,
+.UFIInputContainer,
+.uiSearchInput::after,
+.uiTypeahead::after,
+._58ak::after {
+  background-color: $bg-input-hover;
+  border-color: $borders;
+  &:hover {
+    background-color: $bg-input-hover;
+  }
+}
+
+._3zsi {
+  background-color: $bg-input-hover;
+  border-color: lighten($borders, 10%);
+}
+
+// Shadows
+._4_u2,
+#fbNotificationsFlyout {
+  box-shadow: 0 2px 10px 0 $shadow;
+}
+
+// Various
