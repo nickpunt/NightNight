@@ -54,7 +54,12 @@ the instructions above to copy your changes into your browser extension.
 To learn more, see the [Sass guide](https://sass-lang.com/guide).
 
 ## Requirements
-Any browser extension that overrides stylesheets. Chrome and Firefox support this type of extensions, however I don't believe Safari does.
+Any browser extension that overrides stylesheets.
+
+**Safari** - Built-in support for a single stylesheet override.
+Go to Preferences > Advanced > 'Style sheet' and select the css file you want
+
+**Chrome, Firefox** - Use a browser extension
 
 ## Supported Web Apps
 * [Google Docs](https://docs.google.com)
