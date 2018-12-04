@@ -8,7 +8,8 @@
 // Main Backgrounds
 .kix-page.kix-page-compact-first,
 .kix-page-content-wrapper,
-.docs-ui-unprintable {
+.kix-paginateddocumentplugin-compact-mode .docs-ui-unprintable,
+.kix-paginateddocumentplugin .docs-ui-unprintable {
   background-color: $bg-main !important;
 }
 
@@ -129,10 +130,11 @@ div#docs-toolbar-wrapper,
 
 // Shadows
 .goog-menu {
-  box-shadow: 0 5px 10px 0 $shadow;
+  box-shadow: 0 5px 10px 0 $shadow !important;
 }
+.kix-paginateddocumentplugin-compact-mode,
 .kix-paginateddocumentplugin.kix-paginateddocumentplugin-compact-mode {
-  box-shadow: 0 0 15px 0 $shadow;
+  box-shadow: 0 0 15px 0 $shadow !important;
 }
 
 // Various

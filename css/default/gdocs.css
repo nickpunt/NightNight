@@ -4,7 +4,8 @@
 
 .kix-page.kix-page-compact-first,
 .kix-page-content-wrapper,
-.docs-ui-unprintable {
+.kix-paginateddocumentplugin-compact-mode .docs-ui-unprintable,
+.kix-paginateddocumentplugin .docs-ui-unprintable {
   background-color: #2b2b2b !important;
 }
 
@@ -124,11 +125,12 @@ div#docs-toolbar-wrapper,
 }
 
 .goog-menu {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
+.kix-paginateddocumentplugin-compact-mode,
 .kix-paginateddocumentplugin.kix-paginateddocumentplugin-compact-mode {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
 .jfk-tooltip, .docs-bubble {
